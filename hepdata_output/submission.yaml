@@ -1,0 +1,46 @@
+---
+additional_resources:
+- description: Created with hepdata_lib 0.19.0
+  location: https://doi.org/10.5281/zenodo.1217998
+comment: ''
+data_license:
+  description: CC0 enables reusers to distribute, remix, adapt, and build upon the
+    material in any medium or format, with no conditions.
+  name: CC0
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+---
+data_file: figure4_eb_ptgamma.yaml
+description: 'Barrel (EB) signal region: post-fit reconstruction-level photon transverse
+  momentum $p_{T}^{\gamma}$ distribution for the full Run-2 CMS dataset (138 fb$^{-1}$
+  at $\sqrt{s}=13$ TeV). Black points labelled ''Observed'' show the data with Poisson
+  statistical uncertainties. The background expectation is decomposed into the components
+  listed as dependent variables in this table. In the published figure, the components
+  labelled here as fiducial $Z\gamma$, $W+\gamma$, ECAL spikes and misidentified electrons
+  $e\to\gamma$ appear explicitly in the legend. The components labelled here as jet
+  fakes, out-of-acceptance $Z(\nu\nu)\gamma$ and minor backgrounds are drawn in the
+  stack but grouped together and shown as ''Other'' in the legend. The variable ''Total
+  background'' gives the sum of all non-signal background components evaluated at
+  their post-fit yields. The variable ''Predicted'' gives the full post-fit model
+  prediction (signal plus all background components), with uncertainties propagated
+  from the fit covariance.'
+keywords: []
+location: Figure 4 (left)
+name: Figure4_EB_pTgamma
+---
+data_file: figure4_ee_ptgamma.yaml
+description: 'Endcap (EE) signal region: post-fit reconstruction-level photon transverse
+  momentum $p_{T}^{\gamma}$ distribution for the full Run-2 CMS dataset (138 fb$^{-1}$
+  at $\sqrt{s}=13$ TeV). Black points labelled ''Observed'' show the data with Poisson
+  statistical uncertainties. The background expectation is decomposed into the components
+  listed as dependent variables in this table. In the published figure, the components
+  labelled here as fiducial $Z\gamma$, $W+\gamma$, beam halo and misidentified electrons
+  $e\to\gamma$ appear explicitly in the legend. The components labelled here as jet
+  fakes, out-of-acceptance $Z(\nu\nu)\gamma$ and minor backgrounds are drawn in the
+  stack but grouped together and shown as ''Other'' in the legend. The variable ''Total
+  background'' gives the sum of all non-signal background components evaluated at
+  their post-fit yields. The variable ''Predicted'' gives the full post-fit model
+  prediction (signal plus all background components), with uncertainties propagated
+  from the fit covariance.'
+keywords: []
+location: Figure 4 (right)
+name: Figure4_EE_pTgamma

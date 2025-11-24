@@ -1,0 +1,520 @@
+dependent_variables:
+- header:
+    name: Observed
+  values:
+  - errors:
+    - asymerror:
+        minus: -17.767
+        plus: 18.796
+      label: stat
+    value: 316.0
+  - errors:
+    - asymerror:
+        minus: -17.02
+        plus: 18.049
+      label: stat
+    value: 290.0
+  - errors:
+    - asymerror:
+        minus: -22.016
+        plus: 23.038
+      label: stat
+    value: 485.0
+  - errors:
+    - asymerror:
+        minus: -17.963
+        plus: 18.991
+      label: stat
+    value: 323.0
+  - errors:
+    - asymerror:
+        minus: -18.86
+        plus: 19.886
+      label: stat
+    value: 356.0
+  - errors:
+    - asymerror:
+        minus: -15.959
+        plus: 16.99
+      label: stat
+    value: 255.0
+  - errors:
+    - asymerror:
+        minus: -15.221
+        plus: 16.254
+      label: stat
+    value: 232.0
+  - errors:
+    - asymerror:
+        minus: -10.472
+        plus: 11.52
+      label: stat
+    value: 110.0
+  - errors:
+    - asymerror:
+        minus: -7.1181
+        plus: 8.1883
+      label: stat
+    value: 51.0
+  - errors:
+    - asymerror:
+        minus: -4.7608
+        plus: 5.8654
+      label: stat
+    value: 23.0
+  - errors:
+    - asymerror:
+        minus: -3.4153
+        plus: 4.5599
+      label: stat
+    value: 12.0
+- header:
+    name: Fiducial $Z\gamma$
+  values:
+  - errors:
+    - label: stat+syst
+      symerror: 13.661
+    value: 168.5
+  - errors:
+    - label: stat+syst
+      symerror: 13.74
+    value: 173.18
+  - errors:
+    - label: stat+syst
+      symerror: 22.787
+    value: 288.73
+  - errors:
+    - label: stat+syst
+      symerror: 13.5
+    value: 208.64
+  - errors:
+    - label: stat+syst
+      symerror: 18.631
+    value: 205.4
+  - errors:
+    - label: stat+syst
+      symerror: 13.36
+    value: 160.36
+  - errors:
+    - label: stat+syst
+      symerror: 17.612
+    value: 130.61
+  - errors:
+    - label: stat+syst
+      symerror: 9.8911
+    value: 69.564
+  - errors:
+    - label: stat+syst
+      symerror: 5.1461
+    value: 28.915
+  - errors:
+    - label: stat+syst
+      symerror: 4.9843
+    value: 14.631
+  - errors:
+    - label: stat+syst
+      symerror: 3.6243
+    value: 7.7267
+- header:
+    name: $W+\gamma$
+  values:
+  - errors:
+    - label: stat+syst
+      symerror: 6.9193
+    value: 42.976
+  - errors:
+    - label: stat+syst
+      symerror: 6.209
+    value: 38.428
+  - errors:
+    - label: stat+syst
+      symerror: 9.2609
+    value: 61.442
+  - errors:
+    - label: stat+syst
+      symerror: 7.249
+    value: 48.32
+  - errors:
+    - label: stat+syst
+      symerror: 7.4962
+    value: 51.394
+  - errors:
+    - label: stat+syst
+      symerror: 5.1974
+    value: 29.672
+  - errors:
+    - label: stat+syst
+      symerror: 4.8083
+    value: 29.467
+  - errors:
+    - label: stat+syst
+      symerror: 2.4322
+    value: 11.041
+  - errors:
+    - label: stat+syst
+      symerror: 1.1102
+    value: 3.8099
+  - errors:
+    - label: stat+syst
+      symerror: 0.61879
+    value: 1.5164
+  - errors:
+    - label: stat+syst
+      symerror: 0.31069
+    value: 0.50972
+- header:
+    name: Spikes
+  values:
+  - errors:
+    - label: stat+syst
+      symerror: 0.63293
+    value: 8.1476
+  - errors:
+    - label: stat+syst
+      symerror: 0.5116
+    value: 6.5902
+  - errors:
+    - label: stat+syst
+      symerror: 0.69518
+    value: 9.0105
+  - errors:
+    - label: stat+syst
+      symerror: 0.45643
+    value: 5.926
+  - errors:
+    - label: stat+syst
+      symerror: 0.36125
+    value: 4.6901
+  - errors:
+    - label: stat+syst
+      symerror: 0.22136
+    value: 2.8687
+  - errors:
+    - label: stat+syst
+      symerror: 0.14543
+    value: 1.8787
+  - errors:
+    - label: stat+syst
+      symerror: 0.050843
+    value: 0.65789
+  - errors:
+    - label: stat+syst
+      symerror: 0.017615
+    value: 0.22119
+  - errors:
+    - label: stat+syst
+      symerror: 0.01394
+    value: 0.17776
+  - errors:
+    - label: stat+syst
+      symerror: 0.012527
+    value: 0.15844
+- header:
+    name: $e\to\gamma$
+  values:
+  - errors:
+    - label: stat+syst
+      symerror: 4.4762
+    value: 49.59
+  - errors:
+    - label: stat+syst
+      symerror: 3.8913
+    value: 45.268
+  - errors:
+    - label: stat+syst
+      symerror: 6.5533
+    value: 75.844
+  - errors:
+    - label: stat+syst
+      symerror: 4.797
+    value: 55.725
+  - errors:
+    - label: stat+syst
+      symerror: 5.0547
+    value: 58.715
+  - errors:
+    - label: stat+syst
+      symerror: 3.9597
+    value: 45.05
+  - errors:
+    - label: stat+syst
+      symerror: 3.4289
+    value: 39.965
+  - errors:
+    - label: stat+syst
+      symerror: 1.4825
+    value: 17.102
+  - errors:
+    - label: stat+syst
+      symerror: 0.86075
+    value: 9.1498
+  - errors:
+    - label: stat+syst
+      symerror: 0.6753
+    value: 5.1645
+  - errors:
+    - label: stat+syst
+      symerror: 0.44574
+    value: 2.8398
+- header:
+    name: Jet fakes
+  values:
+  - errors:
+    - label: stat+syst
+      symerror: 0.21931
+    value: 6.7214
+  - errors:
+    - label: stat+syst
+      symerror: 0.13269
+    value: 5.2131
+  - errors:
+    - label: stat+syst
+      symerror: 0.14284
+    value: 7.9022
+  - errors:
+    - label: stat+syst
+      symerror: 0.15638
+    value: 6.0788
+  - errors:
+    - label: stat+syst
+      symerror: 0.088988
+    value: 3.9721
+  - errors:
+    - label: stat+syst
+      symerror: 0.066226
+    value: 2.6481
+  - errors:
+    - label: stat+syst
+      symerror: 0.042659
+    value: 1.3856
+  - errors:
+    - label: stat+syst
+      symerror: 0.018775
+    value: 0.40688
+  - errors:
+    - label: stat+syst
+      symerror: 0.016663
+    value: 0.16391
+  - errors:
+    - label: stat+syst
+      symerror: 6.9698e-11
+    value: 2.9985e-09
+  - errors:
+    - label: stat+syst
+      symerror: 6.9698e-11
+    value: 2.9985e-09
+- header:
+    name: Out-of-acceptance $Z(\nu\nu)\gamma$
+  values:
+  - errors:
+    - label: stat+syst
+      symerror: 3.4239
+    value: 34.892
+  - errors:
+    - label: stat+syst
+      symerror: 0.71753
+    value: 8.2025
+  - errors:
+    - label: stat+syst
+      symerror: 0.84948
+    value: 9.6628
+  - errors:
+    - label: stat+syst
+      symerror: 0.52935
+    value: 5.7193
+  - errors:
+    - label: stat+syst
+      symerror: 0.52384
+    value: 5.3845
+  - errors:
+    - label: stat+syst
+      symerror: 0.38187
+    value: 3.7704
+  - errors:
+    - label: stat+syst
+      symerror: 0.30521
+    value: 2.8242
+  - errors:
+    - label: stat+syst
+      symerror: 0.14747
+    value: 1.1685
+  - errors:
+    - label: stat+syst
+      symerror: 0.055509
+    value: 0.38377
+  - errors:
+    - label: stat+syst
+      symerror: 0.028316
+    value: 0.15607
+  - errors:
+    - label: stat+syst
+      symerror: 0.013381
+    value: 0.049178
+- header:
+    name: Minor backgrounds
+  values:
+  - errors:
+    - label: stat+syst
+      symerror: 5.9655
+    value: 15.355
+  - errors:
+    - label: stat+syst
+      symerror: 8.1024
+    value: 20.944
+  - errors:
+    - label: stat+syst
+      symerror: 11.842
+    value: 29.013
+  - errors:
+    - label: stat+syst
+      symerror: 5.3347
+    value: 11.318
+  - errors:
+    - label: stat+syst
+      symerror: 6.1182
+    value: 24.022
+  - errors:
+    - label: stat+syst
+      symerror: 5.0048
+    value: 14.334
+  - errors:
+    - label: stat+syst
+      symerror: 5.7995
+    value: 22.968
+  - errors:
+    - label: stat+syst
+      symerror: 5.2571
+    value: 9.8896
+  - errors:
+    - label: stat+syst
+      symerror: 2.1532
+    value: 4.0334
+  - errors:
+    - label: stat+syst
+      symerror: 0.29451
+    value: 0.75974
+  - errors:
+    - label: stat+syst
+      symerror: 0.24657
+    value: 0.73396
+- header:
+    name: Total background
+  values:
+  - errors:
+    - label: stat+syst
+      symerror: 11.252
+    value: 157.68
+  - errors:
+    - label: stat+syst
+      symerror: 11.307
+    value: 124.65
+  - errors:
+    - label: stat+syst
+      symerror: 16.886
+    value: 192.87
+  - errors:
+    - label: stat+syst
+      symerror: 10.681
+    value: 133.09
+  - errors:
+    - label: stat+syst
+      symerror: 11.348
+    value: 148.18
+  - errors:
+    - label: stat+syst
+      symerror: 8.5864
+    value: 98.343
+  - errors:
+    - label: stat+syst
+      symerror: 8.664
+    value: 98.488
+  - errors:
+    - label: stat+syst
+      symerror: 6.1444
+    value: 40.266
+  - errors:
+    - label: stat+syst
+      symerror: 2.7702
+    value: 17.762
+  - errors:
+    - label: stat+syst
+      symerror: 1.0806
+    value: 7.7745
+  - errors:
+    - label: stat+syst
+      symerror: 0.71832
+    value: 4.2911
+- header:
+    name: Predicted
+  values:
+  - errors:
+    - label: stat+syst
+      symerror: 18.217
+    value: 326.18
+  - errors:
+    - label: stat+syst
+      symerror: 18.382
+    value: 297.83
+  - errors:
+    - label: stat+syst
+      symerror: 29.347
+    value: 481.6
+  - errors:
+    - label: stat+syst
+      symerror: 18.095
+    value: 341.73
+  - errors:
+    - label: stat+syst
+      symerror: 22.541
+    value: 353.58
+  - errors:
+    - label: stat+syst
+      symerror: 16.439
+    value: 258.71
+  - errors:
+    - label: stat+syst
+      symerror: 20.026
+    value: 229.1
+  - errors:
+    - label: stat+syst
+      symerror: 11.829
+    value: 109.83
+  - errors:
+    - label: stat+syst
+      symerror: 5.9217
+    value: 46.677
+  - errors:
+    - label: stat+syst
+      symerror: 5.116
+    value: 22.405
+  - errors:
+    - label: stat+syst
+      symerror: 3.6994
+    value: 12.018
+independent_variables:
+- header:
+    name: $p_{T}^{\gamma}$
+    units: GeV
+  values:
+  - high: 235.0
+    low: 225.0
+  - high: 245.0
+    low: 235.0
+  - high: 265.0
+    low: 245.0
+  - high: 285.0
+    low: 265.0
+  - high: 315.0
+    low: 285.0
+  - high: 355.0
+    low: 315.0
+  - high: 425.0
+    low: 355.0
+  - high: 515.0
+    low: 425.0
+  - high: 615.0
+    low: 515.0
+  - high: 765.0
+    low: 615.0
+  - high: 1500.0
+    low: 765.0
