@@ -3,11 +3,10 @@ additional_resources:
 - description: Created with hepdata_lib 0.19.0
   location: https://doi.org/10.5281/zenodo.1217998
 comment: "Measurement of the $Z\\gamma$ production cross section and search for anomalous\
-  \ neutral triple gauge couplings in pp collisions at $\\sqrt{s}=13$ TeV. CMS analysis\
-  \ CMS SMP-22-009. Z\u2192\u03BD\u03BD with an associated high-$p_{T}$ photon, using\
-  \ 138 fb$^{-1}$ of pp collisions at $\\sqrt{s}=13$ TeV. The tables in this submission\
-  \ provide the post-fit reconstruction-level $p_{T}^{\\gamma}$ spectra in the EB\
-  \ and EE signal regions corresponding to Figure 4 of the paper."
+  \ neutral triple gauge couplings in pp collisions at $\\sqrt{s}=13$ TeV. CMS SMP-22-009.\
+  \ This submission contains post-fit reconstruction-level $p_{T}^{\\gamma}$ spectra\
+  \ (Figure 4), fiducial and binned cross sections (Tables 3\u20134), and aNTGC 95%\
+  \ CL intervals (Table 5)."
 data_license:
   description: CC0 enables reusers to distribute, remix, adapt, and build upon the
     material in any medium or format, with no conditions.
@@ -16,18 +15,8 @@ data_license:
 ---
 data_file: figure4_eb_ptgamma.yaml
 description: Post-fit reconstruction-level photon transverse momentum $p_{T}^{\gamma}$
-  distribution in the ECAL barrel (EB) signal region for the full Run-2 CMS dataset
-  (138 fb$^{-1}$ at $\sqrt{s}=13$ TeV). Black points labelled 'Observed' show the
-  data with Poisson statistical uncertainties. The background expectation is decomposed
-  into the components listed as dependent variables in this table. In the published
-  figure, the components labelled here as fiducial $Z\gamma$, $W+\gamma$, ECAL spikes
-  and misidentified electrons $e\to\gamma$ appear explicitly in the legend. The components
-  labelled here as jet fakes, out-of-acceptance $Z(\nu\nu)\gamma$ and minor backgrounds
-  are drawn in the stack but grouped together and shown as 'Other' in the legend.
-  The variable 'Total background' gives the sum of all non-signal background components
-  evaluated at their post-fit yields. The variable 'Predicted' gives the full post-fit
-  model prediction (signal plus all background components), with uncertainties propagated
-  from the fit covariance.
+  distribution in the ECAL barrel (EB) signal region for the full Run-2 dataset (138
+  fb$^{-1}$ at $\sqrt{s}=13$ TeV).
 keywords:
 - name: cmenergies
   values:
@@ -37,10 +26,11 @@ keywords:
   - P P --> Z GAMMA
 - name: observables
   values:
-  - DSIG/DPT
+  - N
 - name: phrases
   values:
-  - Differential cross section
+  - Event yields
+  - Post-fit
   - Z to invisible
   - High-pt photon
   - Run 2
@@ -49,18 +39,8 @@ name: Figure4_EB_pTgamma
 ---
 data_file: figure4_ee_ptgamma.yaml
 description: Post-fit reconstruction-level photon transverse momentum $p_{T}^{\gamma}$
-  distribution in the ECAL endcap (EE) signal region for the full Run-2 CMS dataset
-  (138 fb$^{-1}$ at $\sqrt{s}=13$ TeV). Black points labelled 'Observed' show the
-  data with Poisson statistical uncertainties. The background expectation is decomposed
-  into the components listed as dependent variables in this table. In the published
-  figure, the components labelled here as fiducial $Z\gamma$, $W+\gamma$, beam halo
-  and misidentified electrons $e\to\gamma$ appear explicitly in the legend. The components
-  labelled here as jet fakes, out-of-acceptance $Z(\nu\nu)\gamma$ and minor backgrounds
-  are drawn in the stack but grouped together and shown as 'Other' in the legend.
-  The variable 'Total background' gives the sum of all non-signal background components
-  evaluated at their post-fit yields. The variable 'Predicted' gives the full post-fit
-  model prediction (signal plus all background components), with uncertainties propagated
-  from the fit covariance.
+  distribution in the ECAL endcap (EE) signal region for the full Run-2 dataset (138
+  fb$^{-1}$ at $\sqrt{s}=13$ TeV).
 keywords:
 - name: cmenergies
   values:
@@ -70,10 +50,11 @@ keywords:
   - P P --> Z GAMMA
 - name: observables
   values:
-  - DSIG/DPT
+  - N
 - name: phrases
   values:
-  - Differential cross section
+  - Event yields
+  - Post-fit
   - Z to invisible
   - High-pt photon
   - Run 2
@@ -82,8 +63,7 @@ name: Figure4_EE_pTgamma
 ---
 data_file: table3_fiducialcrosssections.yaml
 description: Measured and predicted fiducial cross sections (fb) in the barrel, endcaps,
-  and combined phase space. Predictions shown at NLO (MADGRAPH5_aMC@NLO) and NNLO
-  (MATRIX).
+  and combined phase space. Predictions at NLO (MADGRAPH5_aMC@NLO) and NNLO (MATRIX).
 keywords:
 - name: cmenergies
   values:
@@ -91,6 +71,9 @@ keywords:
 - name: reactions
   values:
   - P P --> Z GAMMA
+- name: observables
+  values:
+  - SIG
 - name: phrases
   values:
   - Fiducial cross section
@@ -112,21 +95,21 @@ keywords:
   - SIG
 - name: phrases
   values:
-  - Binned cross section
+  - Differential cross section
 location: Table 4
 name: Table4_CrossSectionVsPtGamma
 ---
 data_file: table5_antgc_95cl.yaml
-description: Expected and observed 95% CL intervals for anomalous coupling parameters,
-  with other parameters fixed to zero.
+description: Expected and observed 95% CL intervals for anomalous coupling parameters
+  (others fixed to zero).
 keywords:
 - name: cmenergies
   values:
   - 13000.0
 - name: phrases
   values:
-  - aNTGC
-  - 95% CL
   - Limits
+  - Confidence intervals
+  - aNTGC
 location: Table 5
 name: Table5_aNTGC_95CL
