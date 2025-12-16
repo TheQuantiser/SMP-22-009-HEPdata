@@ -2,11 +2,15 @@
 additional_resources:
 - description: Created with hepdata_lib 0.19.0
   location: https://doi.org/10.5281/zenodo.1217998
-comment: "Measurement of the $Z\\gamma$ production cross section and search for anomalous\
-  \ neutral triple gauge couplings in pp collisions at $\\sqrt{s}=13$ TeV. CMS SMP-22-009.\
-  \ This submission contains post-fit reconstruction-level $p_{T}^{\\gamma}$ spectra\
-  \ (Figure 4), fiducial and binned cross sections (Tables 3\u20134), and aNTGC 95%\
-  \ CL intervals (Table 5)."
+comment: 'Measurement of the $Z\gamma$ production cross section and search for anomalous
+  neutral triple gauge couplings in pp collisions at $\sqrt{s}=13$ TeV. CMS SMP-22-009.
+  Dataset: full Run-2 pp collisions at $\sqrt{s}=13$ TeV corresponding to 138 fb$^{-1}$.
+  This HEPData submission provides: (i) post-fit, reconstruction-level $p_{T}^{\gamma}$
+  distributions in the ECAL barrel (EB) and endcaps (EE) signal regions corresponding
+  to Figure 4, with observed data and post-fit yields for the fitted components; (ii)
+  measured and predicted fiducial cross sections (Table 3); (iii) measured and predicted
+  cross sections vs $p_{T}^{\gamma}$ (Table 4); (iv) expected and observed 95% CL
+  intervals for anomalous neutral triple gauge coupling parameters (Table 5).'
 data_license:
   description: CC0 enables reusers to distribute, remix, adapt, and build upon the
     material in any medium or format, with no conditions.
@@ -15,8 +19,10 @@ data_license:
 ---
 data_file: figure4_eb_ptgamma.yaml
 description: Post-fit reconstruction-level photon transverse momentum $p_{T}^{\gamma}$
-  distribution in the ECAL barrel (EB) signal region for the full Run-2 dataset (138
-  fb$^{-1}$ at $\sqrt{s}=13$ TeV).
+  distribution in the ECAL barrel signal region. The yields correspond to the post-fit
+  expectation from the maximum-likelihood fit used in the analysis, with uncertainties
+  reflecting the post-fit total (stat+syst) uncertainty per bin. Data correspond to
+  the full Run-2 dataset (138 fb$^{-1}$ at $\sqrt{s}=13$ TeV).
 keywords:
 - name: cmenergies
   values:
@@ -39,8 +45,10 @@ name: Figure4_EB_pTgamma
 ---
 data_file: figure4_ee_ptgamma.yaml
 description: Post-fit reconstruction-level photon transverse momentum $p_{T}^{\gamma}$
-  distribution in the ECAL endcap (EE) signal region for the full Run-2 dataset (138
-  fb$^{-1}$ at $\sqrt{s}=13$ TeV).
+  distribution in the ECAL endcaps signal region. The yields correspond to the post-fit
+  expectation from the maximum-likelihood fit used in the analysis, with uncertainties
+  reflecting the post-fit total (stat+syst) uncertainty per bin. Data correspond to
+  the full Run-2 dataset (138 fb$^{-1}$ at $\sqrt{s}=13$ TeV).
 keywords:
 - name: cmenergies
   values:
@@ -62,8 +70,9 @@ location: Figure 4 (right)
 name: Figure4_EE_pTgamma
 ---
 data_file: table3_fiducialcrosssections.yaml
-description: Measured and predicted fiducial cross sections (fb) in the barrel, endcaps,
-  and combined phase space. Predictions at NLO (MADGRAPH5_aMC@NLO) and NNLO (MATRIX).
+description: Measured and predicted fiducial cross sections (fb) in the EB, EE, and
+  combined phase space. The fiducial phase space definition follows the analysis selection
+  in the paper. Predictions are shown at NLO (MADGRAPH5_aMC@NLO) and NNLO (MATRIX).
 keywords:
 - name: cmenergies
   values:
@@ -82,7 +91,8 @@ name: Table3_FiducialCrossSections
 ---
 data_file: table4_crosssectionvsptgamma.yaml
 description: Measured and predicted cross sections (fb) in bins of photon transverse
-  momentum.
+  momentum $p_{T}^{\gamma}$. The fiducial phase space definition follows the analysis
+  selection in the paper.
 keywords:
 - name: cmenergies
   values:
@@ -100,12 +110,18 @@ location: Table 4
 name: Table4_CrossSectionVsPtGamma
 ---
 data_file: table5_antgc_95cl.yaml
-description: Expected and observed 95% CL intervals for anomalous coupling parameters
-  (others fixed to zero).
+description: Expected and observed 95% CL intervals for anomalous coupling parameters.
+  All other anomalous coupling parameters are fixed to zero when extracting each interval.
 keywords:
 - name: cmenergies
   values:
   - 13000.0
+- name: reactions
+  values:
+  - P P --> Z GAMMA
+- name: observables
+  values:
+  - CL
 - name: phrases
   values:
   - Limits
