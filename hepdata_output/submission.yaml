@@ -79,3 +79,54 @@ keywords:
   - Run 2
 location: Figure 4 (right)
 name: Figure4_EE_pTgamma
+---
+data_file: table3_fiducialcrosssections.yaml
+description: Measured and predicted fiducial cross sections (fb) in the barrel, endcaps,
+  and combined phase space. Predictions shown at NLO (MADGRAPH5_aMC@NLO) and NNLO
+  (MATRIX).
+keywords:
+- name: cmenergies
+  values:
+  - 13000.0
+- name: reactions
+  values:
+  - P P --> Z GAMMA
+- name: phrases
+  values:
+  - Fiducial cross section
+location: Table 3
+name: Table3_FiducialCrossSections
+---
+data_file: table4_crosssectionvsptgamma.yaml
+description: Measured and predicted cross sections (fb) in bins of photon transverse
+  momentum.
+keywords:
+- name: cmenergies
+  values:
+  - 13000.0
+- name: reactions
+  values:
+  - P P --> Z GAMMA
+- name: observables
+  values:
+  - SIG
+- name: phrases
+  values:
+  - Binned cross section
+location: Table 4
+name: Table4_CrossSectionVsPtGamma
+---
+data_file: table5_antgc_95cl.yaml
+description: Expected and observed 95% CL intervals for anomalous coupling parameters,
+  with other parameters fixed to zero.
+keywords:
+- name: cmenergies
+  values:
+  - 13000.0
+- name: phrases
+  values:
+  - aNTGC
+  - 95% CL
+  - Limits
+location: Table 5
+name: Table5_aNTGC_95CL

@@ -1,0 +1,134 @@
+dependent_variables:
+- header:
+    name: Measured
+    units: fb
+  values:
+  - errors:
+    - asymerror:
+        minus: -0.87
+        plus: 0.91
+      label: total
+    value: 12.45
+  - errors:
+    - asymerror:
+        minus: -0.57
+        plus: 0.6
+      label: total
+    value: 6.95
+  - errors:
+    - asymerror:
+        minus: -0.33
+        plus: 0.35
+      label: total
+    value: 2.61
+  - errors:
+    - asymerror:
+        minus: -0.2
+        plus: 0.21
+      label: total
+    value: 1.08
+  - errors:
+    - asymerror:
+        minus: -0.009
+        plus: 0.01
+      label: total
+    value: 0.282
+  - errors:
+    - label: total
+      symerror: 0.005
+    value: 0.092
+- header:
+    name: NLO (MADGRAPH5_aMC@NLO)
+    units: fb
+  values:
+  - errors:
+    - asymerror:
+        minus: -0.49
+        plus: 0.42
+      label: theory
+    value: 12.88
+  - errors:
+    - asymerror:
+        minus: -0.3
+        plus: 0.31
+      label: theory
+    value: 8.14
+  - errors:
+    - asymerror:
+        minus: -0.11
+        plus: 0.17
+      label: theory
+    value: 3.34
+  - errors:
+    - asymerror:
+        minus: -0.05
+        plus: 0.08
+      label: theory
+    value: 1.26
+  - errors:
+    - asymerror:
+        minus: -0.019
+        plus: 0.026
+      label: theory
+    value: 0.345
+  - errors:
+    - asymerror:
+        minus: -0.012
+        plus: 0.011
+      label: theory
+    value: 0.107
+- header:
+    name: NNLO (MATRIX)
+    units: fb
+  values:
+  - errors:
+    - asymerror:
+        minus: -0.15
+        plus: 0.17
+      label: theory
+    value: 12.83
+  - errors:
+    - asymerror:
+        minus: -0.15
+        plus: 0.16
+      label: theory
+    value: 7.89
+  - errors:
+    - asymerror:
+        minus: -0.06
+        plus: 0.07
+      label: theory
+    value: 3.22
+  - errors:
+    - label: theory
+      symerror: 0.02
+    value: 1.22
+  - errors:
+    - asymerror:
+        minus: -0.005
+        plus: 0.007
+      label: theory
+    value: 0.331
+  - errors:
+    - asymerror:
+        minus: -0.014
+        plus: 0.02
+      label: theory
+    value: 0.091
+independent_variables:
+- header:
+    name: $p_{T}^{\gamma}$
+    units: GeV
+  values:
+  - high: 275
+    low: 225
+  - high: 350
+    low: 275
+  - high: 450
+    low: 350
+  - high: 600
+    low: 450
+  - high: 800
+    low: 600
+  - high: 1500
+    low: 800
